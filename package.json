@@ -1,10 +1,11 @@
 {
-  "name": "tailwind-nextjs-starter-blog",
+  "name": "blog",
   "version": "2.0.0",
+  "homepage": "https://yyzhang1005.github.io/blog",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "npx serve out",
+    "deploy": "gh-pages -d build",
     "start": "next dev",
     "dev": "cross-env INIT_CWD=$PWD next dev",
     "build": "cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
