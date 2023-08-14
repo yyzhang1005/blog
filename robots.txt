@@ -1,5 +1,5 @@
 User-Agent: *
 Allow: /
 
-Host: https://yyzhang1005.github.io/blog/
-Sitemap: https://yyzhang1005.github.io/blog//sitemap.xml
+Host: https://yyzhang1005.github.io/blog
+Sitemap: https://yyzhang1005.github.io/blog/sitemap.xml
