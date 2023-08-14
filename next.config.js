@@ -67,7 +67,9 @@ module.exports = () => {
       dirs: ['app', 'components', 'layouts', 'scripts'],
     },
     images: {
-      domains: ['picsum.photos'],
+      unoptimized: true,
+      loader: 'akamai',
+      path: '',
     },
     experimental: {
       appDir: true,

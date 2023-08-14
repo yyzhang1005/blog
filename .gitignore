@@ -37,7 +37,7 @@ TestResults.xml
 
 # next.js
 /.next/
-#/out/
+/out/
 public/sitemap.xml
 .vercel
 
